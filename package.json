@@ -1,5 +1,5 @@
 {
-  "name": "web_project",
+  "name": "c",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -17,5 +17,13 @@
   "dependencies": {
     "daisyui": "^2.41.0",
     "eslint-config-airbnb": "^19.0.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abdabkim/Business_website_CPTR204.git"
+  },
+  "bugs": {
+    "url": "https://github.com/abdabkim/Business_website_CPTR204/issues"
+  },
+  "homepage": "https://github.com/abdabkim/Business_website_CPTR204#readme"
 }
