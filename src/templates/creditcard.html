@@ -4,8 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./src/dist/output.css">
+    <link rel="stylesheet" href="../dist/output.css">
     <title>NCB Redesign</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        
+      }
+      
+      /* Create three equal columns that floats next to each other */
+      .column {
+        float: left;
+        width: 33.33%;
+        padding: 10px;
+        height: 50px; /* Should be removed. Only for demonstration */
+        color:white;
+      }
+      
+      /* Clear floats after the columns */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      h5{
+        background-color:yellow;
+        color:white;
+        text-align:center;
+      }
+      .breadcrumbs ul li{
+        background-color:yellow;
+        color:white;
+        text-align:center;
+      }
+      </style>
 </head>
 <body>
     <header>
@@ -32,7 +64,7 @@
                     </ul>
                   </div>
                     <a href="https://flowbite.com/" class="flex items-center">
-                        <img src="./src/assets/images/logo (3).svg" class="h-120 w-120" viewBox="0 0 120 120"  alt="NCB Logo" />
+                        <img src="../assets/images/logo (3).svg" class="h-120 w-120" viewBox="0 0 120 120"  alt="NCB Logo" />
                         <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">NATIONAL COMMERCIAL BANK </span>
                     </a>
                 </div>
@@ -62,10 +94,124 @@
  
       </div>
     </section>
+  <div>
+    <h4>Your new credit card is a click away</h4>
   
-    <section></section>
+    <div class="form-control">
+      <label class="label">
+      </label>
+      <label class="input-group">
+        <input type="text" placeholder="Claim your offer" class="input input-bordered" />
+        <span>Find Card</span>
+      </label>
+    </div>
+    </div>
+    <br>
+    <div display="right">
+    <img src="../assets/images/ncb cards.jpg" text-align="left">
+  </div>
+<br>
+  <div class="row">
+    <div class="column" style="background-color:yellow;">
+      <h2></h2>
+      <p>Personal Credit Card</p>
+    </div>
+    <div class="column" style="background-color:yellow;">
+      <h2></h2>
+      <p>Prepaid Card</p>
+    </div>
+    <div class="column" style="background-color:yellow;">
+      <h2></h2>
+      <p>Business Credit Card</p>
+    </div>
+  </div>
+   <br><br><br>
+   <!--Card Section-->
+   <ul class="menu menu-horizontal bg-base-100 rounded-box">
+    <li><a><div class="card card-compact w-80 bg-base-100 shadow-xl">
+      <figure><img src="../assets/images/card.png" alt="" /></figure>
+      <div class="card-body">
+        <h2 class="card-title"></h2>
+        <p>NCB VISA CLASSIC</p>
+        <br>
+        <p>CASH BACK</p>
+        <p>Yearly fee &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspJMD 4,300</p>
+        <p>Effective Annual &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp42% - 46.9%</p>
+        <p>Interest Rate</p>
+        <p>Min. Gross &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspJMD 50,000</p>
+        <p>Monthly Income</p>
+        <div class="card-actions justify-center">
+          <button class="btn btn-primary">Claim yours now!</button>
+        </div>
+      </div>
+    </div</a></li>
+    <li><a><div class="card card-compact w-80 bg-base-100 shadow-xl">
+      <figure><img src="../assets/images/card1.png" alt="" /></figure>
+      <div class="card-body">
+        <h2 class="card-title"></h2>
+        <p>NCB VISA PLATINUM</p>
+        <br>
+        <p>CASH BACK</p>
+        <p>Yearly fee &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspJMD 8,200</p>
+        <p>Effective Annual &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp41.99% - 46.9%</p>
+        <p>Interest Rate</p>
+        <p>Min. Gross &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspJMD 208,334</p>
+        <p>Monthly Income</p>
+        <div class="card-actions justify-center">
+          <button class="btn btn-primary">Claim yours now!</button>
+        </div>
+      </div>
+    </div></a></li>
+    <li><a><div class="card card-compact w-80 bg-base-100 shadow-xl">
+      <figure><img src="../assets/images/card2.png" alt="" /></figure>
+      <div class="card-body">
+        <h2 class="card-title"></h2>
+        <p>INTERNATIONAL MASTER CARD</p>
+        <br>
+        <p>MORE DAYS TO PAY</p>
+        <p>Yearly fee &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspUSD 88.84</p>
+        <p>Effective Annual &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp18% - 21.9%</p>
+        <p>Interest Rate</p>
+        <p>Min. Gross &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspJMD 77,500</p>
+        <p>Monthly Income</p>
+        <div class="card-actions justify-center">
+          <button class="btn btn-primary">Claim yours now!</button>
+        </div>
+      </div>
+    </div></a></li>
+  </ul>
+  <li><a><div class="card card-compact w-80 bg-base-100 shadow-xl">
+    <figure><img src="../assets/images/ncb-debit.png" alt="" /></figure>
+    <div class="card-body">
+      <h2 class="card-title"></h2>
+      <p>VISA CLASSIC</p>
+      <br>
+      <p>NCB MILES</p>
+      <p>Yearly fee &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspUSD 177.68</p>
+        <p>Effective Annual &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp17% - 21.9%</p>
+        <p>Interest Rate</p>
+        <p>Min. Gross &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspUSD 1,667</p>
+        <p>Monthly Income</p>
+      <div class="card-actions justify-center">
+        <button class="btn btn-primary">Claim yours now!</button>
+      </div>
+    </div>
+  </div></a></li>
+</ul>
+<br><br><br>
+<h5>Whatever card you pick, applying for it is easy.</h5>
+<div class="text-sm breadcrumbs">
+  <ul>
+   <li><a>Apply Online</a></li> 
+    <li><a>Get Approved</a></li> 
+    <li>Get your card</li>
+  </ul>
+</div>
+<br><br><br><br>
 
-    <footer class="footer p-10 bg-base text-base-content   fixed left-0 bottom-0">
+
+
+    <footer class="footer p-10 bg-base text-base-content   fixed left-0 bottom-0.9">
       <div>
         <span class="footer-title">Services</span> 
         <a class="link link-hover">Branding</a> 
