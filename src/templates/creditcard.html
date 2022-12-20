@@ -9,7 +9,6 @@
     <style>
       * {
         box-sizing: border-box;
-        
       }
       
       /* Create three equal columns that floats next to each other */
@@ -28,24 +27,59 @@
         clear: both;
       }
       h5{
-        background-color:yellow;
+        background-color: #FFD801;
         color:white;
         text-align:center;
-        text-shadow: 2px 2px black;
-        font-size: 20px;
+        font-size: 30px;
       }
       p{
-        text-shadow: 2px 2px black;
-        font-size: 20px;
+        font-size: 10px;
       }
-
-      .breadcrumbs ul li{
-        background-color:yellow;
+      h1{
+        font-size:30px;
         color:white;
-        text-align:center;
-        text-shadow: 2px 2px black;
-        float:center;
+      }
+      table{
+        padding:10px;
+       margin-left:auto;
+       margin-right:auto;
+       width:1100px;
         font-size:20px;
+        background-color: #FFD801;
+        border-radius:44px;
+        text-align:center;
+        color:white;
+      }
+      td{
+        border-right:2px solid black;
+        padding:10px;
+        border-radius:44px;
+      }
+      .cardone{
+        width:250px;
+        height:170px;
+      }
+      .cardtwo{
+        width:250px;
+        height:170px;
+      }
+      .cardthree{
+        width:250px;
+        height:250px;
+      }
+      .cardfour{
+        width:250px;
+        height:170px;
+      }
+      .adjust{
+        width: 700px;
+        height:600px;
+      }
+      .topinput{
+        background-color: #FFD801;
+      }
+      .input-bordered{
+        background-color:white;
       }
       .gotright{
         float:right;
@@ -62,10 +96,10 @@
                       <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                     </label>
                     <ul tabindex="0" class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
-                      <li><a>Personal</a></li>
+                      <li><a>Card product</a></li>
                       <li tabindex="0">
                         <a class="justify-between">
-                          Business
+                          Card Resources
                           <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z"/></svg>
                         </a>
                         <ul class="p-2">
@@ -83,10 +117,10 @@
                 </div>
                 <div class="navbar-center hidden lg:flex">
                   <ul class="menu menu-horizontal p-0">
-                    <li><a>Personal</a></li>
+                    <li><a>Card Product</a></li>
                     <li tabindex="0">
                       <a>
-                        Business
+                        Card Resources
                         <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z"/></svg>
                       </a>
                       <ul class="p-2">
@@ -94,11 +128,11 @@
                         <li><a>Submenu 2</a></li>
                       </ul>
                     </li>
-                    <li><a>About</a></li>
+                    <li><a>Application Checklistg</a></li>
                   </ul>
                 </div>
                 <div class="navbar-end">
-                  <a class="btn btn-light">Get started</a>
+                  <a class="btn btn-light">Find card</a>
                 </div>
               </div>
         </nav>
@@ -108,41 +142,33 @@
       </div>
     </section>
   <div>
-    <h3>Your new credit card is a click away</h3>
-  
+    <br><br><br>
+    <h1>Your new credit card is a click away</h1>
     <div class="form-control">
       <label class="label">
       </label>
       <label class="input-group">
         <input type="text" placeholder="Claim your offer" class="input input-bordered" />
-        <span>Find Card</span>
+        <span class="topinput">Find Card</span>
       </label>
     </div>
     </div>
-    <br>
     <div class="gotright">
-    <img src="../assets/images/ncb cards.jpg" text-align="left">
+    <img src="../assets/images/deck of cards.png" class="adjust">
   </div>
-<br><br><br><br><br><br><br><br><br><br><br><br>
-  <div class="row">
-    <div class="column" style="background-color:yellow;">
-      <h2></h2>
-      <p>Personal Credit Card</p>
-    </div>
-    <div class="column" style="background-color:yellow;">
-      <h2></h2>
-      <p>Prepaid Card</p>
-    </div>
-    <div class="column" style="background-color:yellow;">
-      <h2></h2>
-      <p>Business Credit Card</p>
-    </div>
-  </div>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<table>
+  <tr>
+    <td>Personal Credit Card</td>
+    <td>Prepaid Card</td>
+    <td>Business Credit Card</td>
+  </tr>
+</table>
    <br><br><br>
    <!--Card Section-->
    <ul class="menu menu-horizontal bg-base-100 rounded-box">
-    <li><a><div class="card card-compact w-80 bg-base-100 shadow-xl">
-      <figure><img src="../assets/images/card.png" alt="" /></figure>
+    <li><a><div class="card card-compact w-79.9 bg-base-100 shadow-xl">
+      <figure><img src="../assets/images/card.png" alt="" class="cardone"/></figure>
       <div class="card-body">
         <h2 class="card-title"></h2>
         <p>NCB VISA CLASSIC</p>
@@ -158,8 +184,8 @@
         </div>
       </div>
     </div</a></li>
-    <li><a><div class="card card-compact w-80 bg-base-100 shadow-xl">
-      <figure><img src="../assets/images/card1.png" alt="" /></figure>
+    <li><a><div class="card card-compact w-79.9 bg-base-100 shadow-xl">
+      <figure><img src="../assets/images/card1.png" alt=""class="cardtwo"/></figure>
       <div class="card-body">
         <h2 class="card-title"></h2>
         <p>NCB VISA PLATINUM</p>
@@ -175,8 +201,8 @@
         </div>
       </div>
     </div></a></li>
-    <li><a><div class="card card-compact w-80 bg-base-100 shadow-xl">
-      <figure><img src="../assets/images/card2.png" alt="" /></figure>
+    <li><a><div class="card card-compact w-79.9 bg-base-100 shadow-xl">
+      <figure><img src="../assets/images/card2.png" alt="" class="cardthree"/></figure>
       <div class="card-body">
         <h2 class="card-title"></h2>
         <p>INTERNATIONAL MASTER CARD</p>
@@ -194,7 +220,7 @@
     </div></a></li>
   </ul>
   <li><a><div class="card card-compact w-80 bg-base-100 shadow-xl">
-    <figure><img src="../assets/images/ncb-debit.png" alt="" /></figure>
+    <figure><img src="../assets/images/ncb-debit.png" alt="" class="cardfour" /></figure>
     <div class="card-body">
       <h2 class="card-title"></h2>
       <p>VISA CLASSIC</p>
@@ -212,18 +238,9 @@
   </div></a></li>
 </ul>
 <br><br><br>
-<h5>Whatever card you pick, applying for it is easy.</h5>
-<div class="text-sm breadcrumbs">
-  <ul>
-   <li><a>Apply Online</a></li> 
-    <li><a>Get Approved</a></li> 
-    <li>Get your card</li>
-  </ul>
+<div class="text-sm breadcrumbs" id="bottomfix">
+  <img src="../assets/images/bottom fix.png">
 </div>
-<br><br><br><br>
-
-
-
     <footer class="footer p-10 bg-base text-base-content   fixed left-0 bottom-0.9">
       <div>
         <span class="footer-title">Services</span> 
